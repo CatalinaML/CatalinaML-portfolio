@@ -136,8 +136,8 @@ div.proyects div.container{
     justify-content: center;
 }
 
-div.proyects .container .proyects-content{
-    padding: 20px;
+div.proyects .container .proyects-content h1, p{
+    padding: 10px;
 }
 
 div.proyects .container .languages{
