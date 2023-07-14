@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/27693dbd18.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+    <link rel="stylesheet" type="text/css" href="css/header.css"/>
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" type="text/css" href="css/sections.css"/>
+    <title>Catalina Liste</title>
+</head>
+<body>
+    <header class="header">
+        <div class="content">
+            <div class="topbar">
+                <div id="icono-nav" onclick="responsiveMenu()">
+                    <i class="fa-solid fa-bars" style="color: #ebebeb;"></i>
+                </div>
+
+                <nav id="nav" class="">
+                    <ul id="links" class="header-nav-list">
+                        <li><a href="#inicio" class="seleccionado" onclick="seleccionarResponsive(this)">Inicio</a></li>
+                        <li><a href="#about-me" onclick="seleccionarResponsive(this)">Sobre mi</a></li>
+                        <li><a href="#education" onclick="seleccionarResponsive(this)">Educación</a></li>
+                        <div id="selector" class="" onclick="change()">
+                            Proyectos
+                            <ul id="links-selector" class="">
+                            <li><a href="#proyects" onclick="seleccionar(this)">Proyectos</a></li>
+                            <li><a href="#php" onclick="seleccionar(this)">PetHero - PHP</a></li>
+                            <li><a href="#java" onclick="seleccionar(this)">PetHero - Java</a></li>
+                            <li><a href="#mern" onclick="seleccionar(this)">UniVerse - MERN</a></li>
+                            </ul>
+                        </div>
+                        <li class="responsive-selector"><a href="#proyects" onclick="seleccionarResponsive(this)">Proyectos</a></li>
+                        <li class="responsive-selector"><a href="#php" onclick="seleccionarResponsive(this)">PetHero - PHP</a></li>
+                        <li class="responsive-selector"><a href="#java" onclick="seleccionarResponsive(this)">PetHero - Java</a></li>
+                        <li class="responsive-selector"><a href="#mern" onclick="seleccionarResponsive(this)">UniVerse - MERN</a></li>
+                </nav>            
+            </div>
+
+
+            <div class="contact">
+                <a class="links" href="https://www.linkedin.com/in/catalina-milagros-liste/" target="_blank">
+                    <i class="fa-brands fa-linkedin" style="color: #0277b5;"></i>
+                </a>
+                <a class="links" href="https://github.com/CatalinaML" target="_blank">
+                    <i class="fa-brands fa-github" style="color: #f2f2f2;"></i>
+                </a>
+                <a class="links" href="mailto:listecatalina7@gmail.com" target="_blank">
+                    <i class="fa-regular fa-envelope" style="color: #f2f2f2;"></i>
+                </a>
+                <a class="links" href="https://wa.me/542236682744" target="_blank">
+                    <i class="fa-brands fa-whatsapp" style="color: #20ab4b;"></i> 
+                </a>            
+            </div>
+        </div>
+
+
+    </header>
+
+        <div class="scroll" dir="ltr">
+            <div id="inicio" class="inicio">
+                <div class="inicio-content">
+                    <h1>Catalina Liste</h1>
+                    <h2>Desarrolladora Web</h2>
+                    <p>Como desarrolladora web encuentro gran motivación en la amplia variedad de desafios y posibilidades que ofrece esta área</p>
+                    <p>A traves de mis proyectos busco explorar diferentes tecnologías y roles, siempre en busqueda del área que más me atraiga y me permita crecer profesionalmente</p>
+                </div>
+            </div>
+
+            <div id="about-me" class="about-me">
+                <div class="image">
+                    <img src="./assets/about-me.png" alt="programmer-image">
+                </div>
+                <div class="content">
+                    <h1>Sobre mi</h1>
+                    <div>
+                        <p>
+                            Soy Catalina, una desarrolladora web con una sólida formación académica, 
+                            que me ha proporcionado una visión amplia del desarrollo web, 
+                            respaldada por varios cursos complementarios, con gran participación en 
+                            proyectos académicos desafiantes que estimulan mi pasión por aprender y 
+                            resolver problemas
+                        </p>
+                        <p>
+                            Me considero una persona colaborativa, organizada y comprometida, capaz
+                            de trabajar tanto en equipo como de manera independiente
+                        </p>
+                        <p>
+                            Mi persistencia, habilidad para buscar información y actitud puntual me permite
+                            encontrar soluciones efectivas
+                        </p>
+                        <p>
+                            Me apasiona alcanzar el máximo niel en cada área en la que me desenvuelvo
+                            y siempre estoy dispuesta a resolver problemas y enfrentar nuevos desafíos
+                        </p>
+                    </div>                    
+                </div>
+
+            </div>
+
+            <div id="education" class="education">
+
+                <div class="education-content">
+                    <h1>Educación</h1>
+                    <div>
+                        <p>
+                            La formación académica me proporcionó una base sólida en pensamiento lógico, mentalidad analítica y 
+                            resolutiva, que me brinda habilidades completas.
+                        </p>
+                    </div>  
+                    <div class="courses">
+                        <div>
+                            <h3>Tecnicatura en programación</h3>
+                            <p>Universidad Tecnológica Nacional</p>
+                            <p>Marzo 2021 - Diciembre 2022</p>
+                        </div>
+                        <div>
+                            <h3>Curso Full Stack Java</h3>
+                            <p>Udemy</p>
+                            <p>Enero 2023</p>
+                        </div>
+                        <div>
+                            <h3>Curso Full Stack MERN</h3>
+                            <p>Udemy</p>
+                            <p>Mayo 2023</p>
+                        </div>
+                    </div>              
+                </div> 
+            </div>
+
+            <div id="proyects" class="proyects">
+                <div class="container">
+                    <div class="proyects-content">
+                        <h1>Proyectos</h1>
+                        <p>En mi portfolio, presento una selección de proyectos en los que trabajé</p>
+                        <p>
+                            Mi intención en cada uno de los siguientes proyectos es adaptarme y enfrentar nuevos desafíos,
+                            sin dejar de buscar constantemente la mejora y el aprendizaje en el desarrollo web
+                        </p>                
+                    </div>
+                    <div class="languages">
+                        <div class="container-l">
+                            <span>
+                                <i class="fa-brands fa-php fa-2xl" style="color: #000000;"></i>
+                            </span>
+                            <p>PetHero es una plataforma web que ofrece a los dueños de mascotas la oportunidad
+                                de encontrar e interactuar con cuidadores confiables.</p>
+                        </div>
+                        <div class="container-l">
+                            <span>
+                                <i class="fa-brands fa-java fa-2xl" style="color: #000000;"></i>
+                            </span>
+                            <p>Este proyecto implica la migración de proyecto "PetHero" al lenguaje Java,
+                                incorporando el framework de Spring. </p>
+                        </div>
+                        <div class="container-l">
+                            <span>
+                                <i class="fa-brands fa-node fa-2xl" style="color: #000000;"></i>
+                            </span>
+                            <p>El proyecto es un blog comunitario, donde los usuarios pueden compartir, 
+                                explorar e interactuar con los posteos publicados.</p>
+                        </div>
+                    </div>                    
+                </div>
+
+            </div>
+
+            <div id="php" class="proyects-php">
+                <h1>PetHero</h1>
+                <a class="links" href="https://github.com/CatalinaML/PetHero" target="_blank">GitHub repository</a>
+                <div>
+                    <p>
+                        La base del desarrollo se basó en PHP y el patrón Modelo Vista Controlador (MVC), 
+                        lo que permitió lograr una arquitectura escalable y modular.
+                    </p>
+                    <p>
+                        Se utilizó una base SQL (MySQL) para almacenar datos estructurados y relacionales, 
+                        como perfiles de usuarios, información de mascotas y detalles de reservas. 
+                    </p>                
+                    <p>
+                        En cuanto a la interfaz de usuario, se utilizó HTML para definir la estructura y los elementos 
+                        de la página, CSS para aplicar estilos personalizados y crear un diseño visualmente atractivo. 
+                        Además, se aprovechó JavaScript para agregar interactividad a la plataforma, como validaciones de 
+                        formularios en tiempo real, animaciones y otras funcionalidades dinámicas.
+                    </p>
+                    <p>
+                        Para garantizar la seguridad de la plataforma, implementamos medidas de protección adicionales. 
+                        Utilizamos técnicas de encriptación para almacenar información confidencial, como contraseñas 
+                        de usuarios, de forma segura en nuestra base de datos.
+                    </p>
+                </div>
+
+                <div class="proyect-php-logos">
+                    <div><img alt="php-logo" src="./assets/logos/php-logo.png" /></div>
+                    <div><img alt="mysql-logo" src="./assets/logos/mysql-logo.png" /></div>
+                    <div><img alt="html-logo" src="./assets/logos/html-logo.png" /></div>
+                    <div><img src="./assets/logos/css-logo.png" alt="css-logo"/></div>
+                    <div><img src="./assets/logos/js-logo.png" alt="javascript-logo"/></div>
+                </div>
+            </div>
+
+            <div id="java" class="proyects-java">
+                <h1>PetHero</h1>
+                <a class="links" href="https://github.com/CatalinaML/PetHero-Spring" target="_blank">GitHub repository</a>
+                <div>
+                    <p>
+                        En esta migración a Java de PetHero, 
+                        se utilizaron diversas tecnologías de Spring, que permitieron abordar diferentes 
+                        aspectos del desarrollo de la aplicación.
+                    </p>
+                    <p>
+                        En primer lugar, se implementó Spring Security para garantizar una gestión segura 
+                        y confiable de la plataforma. Aplicando un sistema 
+                        de autenticación y autorización, asegurando que solo los usuarios autorizados 
+                        tengan acceso a determinadas funcionalidades y recursos. 
+                    </p>
+                    <p>
+                        Para el acceso a la base de datos, se utilizó JPA (Java Persistence API) en 
+                        conjunto con Hibernate. JPA permitió abstraerse de las complejidades 
+                        de las consultas SQL. 
+                        Al utilizar Hibernate como implementación de JPA, se pudo mapear objetos 
+                        Java a entidades en la base de datos de manera sencilla y eficiente. 
+                    </p>   
+                    <p>
+                        Además de las tecnologías de Spring, se aprovechó la integración de una 
+                        API REST para mejorar la interoperabilidad y la capacidad de comunicación 
+                        con otros sistemas.
+                    </p>             
+                    <p>
+                        En cuanto a la interfaz de usuario, se incorporó Bootstrap, que permitió desarrollar 
+                        una interfaz moderna y responsiva. 
+                        Por último, cabe destacar la utilización de Thymeleaf para la generación de vistas,
+                        que permitió crear vistas dinámicas, 
+                        lo que simplificó enormemente la generación de contenido HTML.
+                    </p>
+                </div>
+                
+                <div class="proyect-java-logos">
+                    <div><img alt="java-logo" src="./assets/logos/java-logo.png"/></div>
+                    <div><img alt="spring-logo" src="./assets/logos/spring-logo.png"/></div>
+                    <div><img alt="mysql-logo" src="./assets/logos/mysql-logo.png"/></div>
+                </div>
+            </div>
+
+            <div id="mern" class="proyects-mern">
+                <div>
+                    <h1>UniVerse</h1>
+                    <a class="links" href="https://github.com/CatalinaML/UniVerse" target="_blank">GitHub repository</a>
+                    <div>
+                        <p>
+                            El sistema fue desarrollado utilizando el stack MERN.
+                            Se aprovechó las fortalezas de cada una de las tecnologías del stack para garantizar un 
+                            desarrollo eficiente y una experiencia de usuario atractiva.
+                        </p>
+                        <p>
+                            Para la persistencia de datos, se eligió MongoDB como la base de datos NoSQL. 
+                            Se utilizó Mongoose, una biblioteca de modelado de objetos de MongoDB para Node.js, 
+                            para simplificar la interacción con la base de datos y facilitar el manejo de los datos
+                            del blog.
+                        </p>         
+                        <p>
+                            En el lado del servidor, se usó Node.js junto con el framework Express. 
+                            Proporcionando un entorno de ejecución rápido y eficiente, 
+                            permitiendo un manejo eficiente de solicitudes y respuestas. 
+                        </p>  
+                        <p>
+                            En cuanto a la interfaz de usuario, se optó por utilizar React.js, 
+                            un framework de JavaScript, que permitió crear componentes reutilizables. 
+                            Para agilizar el desarrollo y mejorar la apariencia visual de la interfaz, 
+                            se icorporó semantic-ui-react, una biblioteca de componentes de interfaz 
+                            de usuario preestablecidos y estilos responsivos.
+                        </p> 
+                        <p>    
+                            Además se aprovecharon dependencias adicionales, herramientas específicas 
+                            para tareas como manejo de autenticación de usuarios, manejo de sesiones, 
+                            gestión de imágenes y optimización del rendimiento
+                        </p>
+                    </div>                
+                </div>
+
+                <div class="proyect-mern-logos">
+                    <div><img alt="mongodb-logo" src="./assets/logos/mongoDB-logo.png"/></div>
+                    <div><img alt="express-logo" src="./assets/logos/express-logo.png"/></div>
+                    <div><img alt="node-logo" src="./assets/logos/node-logo.png"/></div>
+                    <div><img alt="react-logo" src="./assets/logos/react-logo.png"/></div>
+                </div>
+            </div> 
+        </div>
+
+    <script src="./js/scripts.js"></script>
+</body>
+</html>
