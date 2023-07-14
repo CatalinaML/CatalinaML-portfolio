@@ -151,6 +151,10 @@ div.proyects .container .languages{
     height: 100%;
 }
 
+div.proyects .container .languages a{
+    text-decoration: none;
+}
+
 div.proyects .container .languages .container-l{
     display: flex;
     flex-direction: column;
