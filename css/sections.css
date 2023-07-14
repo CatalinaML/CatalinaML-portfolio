@@ -245,7 +245,6 @@ div.proyect-java-logos{
     align-items: center;
 
     width: 100%;    
-    padding-top: 20px;
 }
 
 div.proyect-java-logos div{
@@ -303,7 +302,7 @@ div.proyect-mern-logos div img{
 
 
 /*RESPONSIVE*/
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1050px) and (max-height: 1200px){
     div.about-me{
         height: auto;
         flex-direction: column;
@@ -327,29 +326,8 @@ div.proyect-mern-logos div img{
         height: auto;
     }
 
-    div.education .education-content div{
-        margin: 0 10px 0 10px;
-    }
-
-    div.education .education-content .courses{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    div.education .education-content .courses div{
-        width: 250px;
-    }
-
     div.proyects{
         height: auto;
-    }
-
-    div.proyects .container .languages{
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
     }
 
     div.proyects .container .languages .container-l{
@@ -370,16 +348,33 @@ div.proyect-mern-logos div img{
         height: auto;
     }
 
-    div.contact i{   
-        width: 100%;
-        margin: 20px 10px 20px 10px;
-        font-size: 2em;
-    }
-
     div.proyect-php-logos{   
         padding-top: 20px;
     }
     div.proyect-java-logos{ 
         padding-top: 20px;
+    }
+}
+
+@media screen and (max-width: 800px){
+    div.education .education-content .courses{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    div.education .education-content div{
+        margin: 0 10px 0 10px;
+    }
+    
+    div.education .education-content .courses div{
+        width: 250px;
+    }
+
+    div.proyects .container .languages{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 }

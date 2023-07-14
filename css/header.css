@@ -30,7 +30,7 @@ header .topbar{
 }
 
 header .contact{
-    height: 50px;
+    height: auto;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -38,6 +38,7 @@ header .contact{
 }
 
 header .contact .links{
+    height: fit-content;
     margin: 0 10px 0 10px;
 }
 
@@ -147,9 +148,6 @@ header .header-nav-list li a:hover{
     }
     nav.responsive ul li {
         margin: 5px 0;
-    }
-    nav.responsive a:active {
-        
     }
     nav.responsive #selector{
         display: none;
